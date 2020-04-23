@@ -1,0 +1,140 @@
+h1 {
+    color: red;
+}
+.fa
+{
+    font-size: 25px;
+}
+.container-fluid{
+    background: #efe7dd url(https://cloud.githubusercontent.com/assets/398893/15136779/4e765036-1639-11e6-9201-67e728e86f39.jpg) repeat;
+    width: 100%;
+    height: 550px;
+    position: relative;
+    
+}
+.chating
+{
+ /* position: fixed;
+    width: 97%;
+    bottom: 13%; */
+        position: absolute;
+    bottom: 13px;
+
+}
+.inpBox
+{
+    background: #fff;
+    height: 50px;
+    border-radius: 25px;
+}
+.inpBox1
+{
+    background:black;
+    height: 50px;
+    border-radius: 25px;
+}
+.inptextBox{
+    padding: 15px;
+    border: none;
+    outline: none;
+        width: 95%;
+
+}
+.circle
+{
+      background: #4cada3;
+  border-radius: 50%;
+  color: #fff;
+  position: relative;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.circleImage
+{
+  border-radius: 50%;
+  color: #fff;
+  position: relative;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.circle1
+{
+      background: #4cada3;
+  border-radius: 50%;
+  color: #fff;
+  position: relative;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.inptextBox1 {
+    padding: 15px;
+    border: none;
+    outline: none;
+    width: 100%;
+    color: white;
+    background:black;
+ 
+}
+.camerapos{ 
+          left: 4%;
+    margin-top: 1%;
+    }
+.m-5
+{
+    margin-left:5px
+}
+.user-bar
+{
+        height: 55px;
+    background: #005e54;
+    color: #fff;
+    padding: 0 8px;
+    font-size: 24px;
+    position: relative;
+    z-index: 1;
+}
+.greenHeader{
+             background-color: #005e54;
+    border: none;
+    outline: none;
+    color: white;
+    margin-left: 20px;
+    margin-top: 0px;
+    font-size: 20px;
+
+}
+.message:nth-child(odd){
+        background: #e1ffc7;
+    border-radius: 5px 0px 5px 5px;
+    float: right;
+        margin: 16px 0 8px;
+    width: 90%;
+    height: auto;
+        font-size: 20px;
+   
+
+}
+.message:nth-child(even)
+{
+    background: #fff;
+    border-radius: 0px 5px 5px 5px;
+    float: left;
+         background: #fff;
+    border-radius: 0px 5px 5px 5px;
+    float: left;
+    width: 90%;
+    height: auto;
+
+    font-size: 20px;
+  
+
+}
